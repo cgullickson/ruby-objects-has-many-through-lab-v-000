@@ -13,5 +13,6 @@ class Patient
 
   def doctors
     @appointments.collect {|a| a.doctor}
+  end
 
 end
